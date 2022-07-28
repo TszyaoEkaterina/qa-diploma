@@ -1,13 +1,15 @@
 package ru.netology.tests;
 
 import com.codeborne.selenide.Configuration;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import ru.netology.DataGenerator;
 import ru.netology.MainPage;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class BuyWithCardTest {
+public class BuyWithCreditTest {
     MainPage mainPage = new MainPage();
     DataGenerator generator = new DataGenerator();
 
@@ -19,7 +21,7 @@ public class BuyWithCardTest {
     @BeforeEach
     void clickPayWithCard() {
         open("http://localhost:8080");
-        mainPage.payWithCard();
+        mainPage.payWithCredit();
     }
 
     //happy path
@@ -231,3 +233,4 @@ public class BuyWithCardTest {
         mainPage.incorrectFormatNote();
     }
 }
+
