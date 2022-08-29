@@ -9,3 +9,9 @@ services:
       - MYSQL_PASSWORD=pass
       - MYSQL_DATABASE=app
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
+
+  node-app:
+    build: ./gate-simulator/
+    image: node-app:1.0
+    ports:
+      - '9999:9999'

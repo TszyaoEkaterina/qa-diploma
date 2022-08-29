@@ -2,6 +2,7 @@ package ru.netology;
 
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
+import ru.netology.data.DataGenerator;
 
 import java.time.Duration;
 

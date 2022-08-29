@@ -2,7 +2,7 @@ package ru.netology.tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.*;
-import ru.netology.DataGenerator;
+import ru.netology.data.DataGenerator;
 import ru.netology.MainPage;
 
 import static com.codeborne.selenide.Selenide.open;
@@ -178,7 +178,7 @@ public class BuyWithCardTest {
     @Test
     void ownerInRussianShouldNotPass() {
         mainPage.fillCardData(generator.getCardWithoutOwner());
-        mainPage.setCardOwner("пуч");//TODO
+        mainPage.setCardOwner("Владимир Пупкин");
         mainPage.clickContinue();
         mainPage.incorrectFormatNote();
     }

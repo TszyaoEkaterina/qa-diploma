@@ -4,7 +4,7 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.netology.DataGenerator;
+import ru.netology.data.DataGenerator;
 import ru.netology.MainPage;
 
 import static com.codeborne.selenide.Selenide.open;

@@ -43,6 +43,9 @@ out/
 *.tar.gz
 *.rar
 
+### Node ###
+node_modules
+
 ### Exclusions ###
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
