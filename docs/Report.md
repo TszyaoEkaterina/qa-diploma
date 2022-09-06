@@ -9,12 +9,14 @@
 - Количество тест-кейсов по API: 4
 
 ### Результаты тестов
-![](../../../myFiles/testResults.jpg)
+![Report1](https://disk.yandex.com/i/oqpy9ng8k253KQ)
+https://disk.yandex.com/i/oqpy9ng8k253KQ
 75% успешных тестов, 25% не успешных, из них 5 тест-кейсов по покупке билета картой,
 5 по покупке билета кредитам, 4 по API.
 
 Итоги по классам：
-![](../../../myFiles/report2.jpg)
+![Report2](https://disk.yandex.com/i/YMmHMMyXg2VFSg)
+https://disk.yandex.com/i/YMmHMMyXg2VFSg
 
 ### Общие рекомендации
 - Необходимо починить все Багги
