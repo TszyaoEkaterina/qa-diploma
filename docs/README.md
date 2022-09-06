@@ -27,6 +27,6 @@ docker-compose down
 
 ## Документация
 1. [Текст задания](https://github.com/netology-code/qa-diploma)
-2. [План](https://github.com/TszyaoEkaterina/qa-diploma/docs/Plan.md)
-3. [Отчёт о проведённом тестировании](https://github.com/TszyaoEkaterina/qa-diploma/docs/Report.md)
-4. [Отчётные документы по итогам автоматизации](https://github.com/TszyaoEkaterina/qa-diploma/docs/Summary.md)
+2. [План](https://github.com/TszyaoEkaterina/qa-diploma/blob/master/docs/Plan.md)
+3. [Отчёт о проведённом тестировании](https://github.com/TszyaoEkaterina/qa-diploma/blob/master/docs/Report.md)
+4. [Отчётные документы по итогам автоматизации](https://github.com/TszyaoEkaterina/qa-diploma/blob/master/docs/Summary.md)
